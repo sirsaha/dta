@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+.idea/
+AIRFLOW/airflow.db
+AIRFLOW/airflow.db-shm
+AIRFLOW/airflow.db-wal
+AIRFLOW/logs/
+AIRFLOW/simple_auth_manager_passwords.json.generated

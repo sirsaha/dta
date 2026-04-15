@@ -1,7 +1,7 @@
 """Standalone script to fetch NSE stock data and store as parquet."""
 import os
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 import yfinance as yf
 import pandas as pd
 
@@ -36,7 +36,7 @@ def fetch_stock_data(stock_indices):
     print(f"Fetching data for {len(tickers)} stocks...")
 
     all_records = []
-    fetch_time = datetime.utcnow().isoformat()
+    fetch_time = datetime.now(timezone.utc).isoformat()
 
     batch_size = 50
     for i in range(0, len(tickers), batch_size):
@@ -82,7 +82,7 @@ def store_to_parquet(records):
         return
 
     os.makedirs(DATA_DIR, exist_ok=True)
-    today = datetime.utcnow().strftime('%Y-%m-%d')
+    today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
     file_path = os.path.join(DATA_DIR, f'{today}.parquet')
 
     new_data = pd.DataFrame(records)
