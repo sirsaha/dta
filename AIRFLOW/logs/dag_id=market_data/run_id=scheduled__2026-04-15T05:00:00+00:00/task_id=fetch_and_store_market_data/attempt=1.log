@@ -1,0 +1,35 @@
+{"timestamp":"2026-04-15T05:02:00.371735Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-15T05:02:00.372129Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/market_data.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-15T05:02:01.737690Z","level":"info","event":"Fetched 2 rows for NIFTY_50","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:02.848779Z","level":"error","event":"HTTP Error 404: {\"quoteSummary\":{\"result\":null,\"error\":{\"code\":\"Not Found\",\"description\":\"Quote not found for symbol: ^NSMIDCP50\"}}}","logger":"yfinance","filename":"quote.py","lineno":592}
+{"timestamp":"2026-04-15T05:02:03.924951Z","level":"error","event":"$^NSMIDCP50: possibly delisted; no price data found  (period=1d) (Yahoo error = \"No data found, symbol may be delisted\")","logger":"yfinance","filename":"history.py","lineno":289}
+{"timestamp":"2026-04-15T05:02:03.926351Z","level":"info","event":"No data for NIFTY_NEXT_50 (^NSMIDCP50)","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:04.215564Z","level":"info","event":"Fetched 2 rows for NIFTY_100","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:04.549077Z","level":"info","event":"Fetched 2 rows for NIFTY_200","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:06.022677Z","level":"error","event":"HTTP Error 404: {\"quoteSummary\":{\"result\":null,\"error\":{\"code\":\"Not Found\",\"description\":\"Quote not found for symbol: ^CNX500\"}}}","logger":"yfinance","filename":"quote.py","lineno":592}
+{"timestamp":"2026-04-15T05:02:06.834684Z","level":"error","event":"$^CNX500: possibly delisted; no price data found  (period=1d) (Yahoo error = \"No data found, symbol may be delisted\")","logger":"yfinance","filename":"history.py","lineno":289}
+{"timestamp":"2026-04-15T05:02:06.835888Z","level":"info","event":"No data for NIFTY_500 (^CNX500)","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:07.216186Z","level":"info","event":"Fetched 2 rows for NIFTY_MIDCAP_50","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:08.447287Z","level":"error","event":"$^NIFM: possibly delisted; no price data found  (period=1d) (Yahoo error = \"No data found, symbol may be delisted\")","logger":"yfinance","filename":"history.py","lineno":289}
+{"timestamp":"2026-04-15T05:02:08.449053Z","level":"info","event":"No data for NIFTY_MIDCAP_100 (^NIFM)","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:09.608416Z","level":"error","event":"$^NSESMLCP50: possibly delisted; no price data found  (period=1d) (Yahoo error = \"No data found, symbol may be delisted\")","logger":"yfinance","filename":"history.py","lineno":289}
+{"timestamp":"2026-04-15T05:02:09.609293Z","level":"info","event":"No data for NIFTY_SMALLCAP_50 (^NSESMLCP50)","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:09.884878Z","level":"info","event":"Fetched 2 rows for NIFTY_SMALLCAP_100","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:10.189416Z","level":"info","event":"Fetched 2 rows for NIFTY_BANK","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:10.537336Z","level":"info","event":"Fetched 2 rows for NIFTY_IT","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:10.891945Z","level":"info","event":"Fetched 2 rows for NIFTY_PHARMA","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:11.245040Z","level":"info","event":"Fetched 2 rows for NIFTY_AUTO","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:11.417989Z","level":"info","event":"Fetched 2 rows for NIFTY_FINANCIAL_SERVICES","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:11.666067Z","level":"info","event":"Fetched 2 rows for SENSEX","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:11.798613Z","level":"error","event":"$^BSE100: possibly delisted; no price data found  (period=1d)","logger":"yfinance","filename":"history.py","lineno":289}
+{"timestamp":"2026-04-15T05:02:11.800383Z","level":"info","event":"No data for BSE_100 (^BSE100)","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:12.002782Z","level":"error","event":"$^BSE200: possibly delisted; no price data found  (period=1d)","logger":"yfinance","filename":"history.py","lineno":289}
+{"timestamp":"2026-04-15T05:02:12.004552Z","level":"info","event":"No data for BSE_200 (^BSE200)","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:12.215988Z","level":"error","event":"$^BSE500: possibly delisted; no price data found  (period=1d)","logger":"yfinance","filename":"history.py","lineno":289}
+{"timestamp":"2026-04-15T05:02:12.217287Z","level":"info","event":"No data for BSE_500 (^BSE500)","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:13.141655Z","level":"error","event":"$^BSEMCAP: possibly delisted; no price data found  (period=1d) (Yahoo error = \"No data found, symbol may be delisted\")","logger":"yfinance","filename":"history.py","lineno":289}
+{"timestamp":"2026-04-15T05:02:13.142789Z","level":"info","event":"No data for BSE_MIDCAP (^BSEMCAP)","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:14.254252Z","level":"error","event":"$^BSESMCAP: possibly delisted; no price data found  (period=1d) (Yahoo error = \"No data found, symbol may be delisted\")","logger":"yfinance","filename":"history.py","lineno":289}
+{"timestamp":"2026-04-15T05:02:14.255797Z","level":"info","event":"No data for BSE_SMALLCAP (^BSESMCAP)","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:14.312299Z","level":"info","event":"Appended to /opt/airflow/dags/market_data/2026-04-15.parquet — total 22 rows","logger":"task.stdout"}
+{"timestamp":"2026-04-15T05:02:14.312432Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":229}

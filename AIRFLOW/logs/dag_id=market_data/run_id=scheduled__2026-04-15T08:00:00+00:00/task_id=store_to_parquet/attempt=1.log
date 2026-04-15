@@ -1,0 +1,4 @@
+{"timestamp":"2026-04-15T08:31:15.844262Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-15T08:31:15.844650Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/market_data.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-15T08:31:16.079471Z","level":"info","event":"Appended to /opt/airflow/dags/market_data/2026-04-15.parquet — total 815 rows","logger":"task.stdout"}
+{"timestamp":"2026-04-15T08:31:16.079513Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":229}
